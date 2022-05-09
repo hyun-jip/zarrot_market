@@ -8,6 +8,7 @@ import { cls } from "@libs/client/utils";
 
 interface ReviewWithUser extends Review {
   createdBy: User;
+  score: number;
 }
 interface ReviewsResponse {
   ok: boolean;
